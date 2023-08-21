@@ -6,3 +6,6 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+        
+      - name: run unit test
+      - run: ci/unit-test-app.sh
